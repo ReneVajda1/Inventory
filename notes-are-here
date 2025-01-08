@@ -1,0 +1,9 @@
+
+
+1 create Item class as blueprint to create new Items >> every new Item we make is Object
+2 add attributes String name, int quantity for example... private ofc so its local to its class
+aaaand ENCAPSULATION is Done.
+3 generate getters
+4 generate constructor .. for Item
+
+5
