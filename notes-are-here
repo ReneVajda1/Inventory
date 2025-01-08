@@ -15,3 +15,7 @@ aaaand ENCAPSULATION is Done.
 14 Inheritance  by making Fruit class
 15 Fruit class extends Item ... we add String type; and generate constructor with all 3 type name and quantity
 16 Create getType getter cause its missing in original ITEM class
+
+17 Create instance of fruit in Main class
+
+18 Weapon class again same but we add damage .. constructor

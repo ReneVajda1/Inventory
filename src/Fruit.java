@@ -1,7 +1,7 @@
 public class Fruit extends Item{
    String type;
 
-    public Fruit(String type,String name, int quantity) {
+    public Fruit(String name, int quantity,String type) {
         super(name, quantity);
         this.type = type;
     }
