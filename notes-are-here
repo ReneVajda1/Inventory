@@ -10,3 +10,6 @@ aaaand ENCAPSULATION is Done.
 6 ArrayList<Item> items; array list stores objects
 7 Modify constructor
 8 create addItem() and displayInventory() functions
+9 create item and inventory add then display them in main ..
+
+14 Inheritance  by making Fruit class

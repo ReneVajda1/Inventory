@@ -15,14 +15,24 @@ public Inventory(){
     items = new ArrayList<>();
 }
 
+//public void addItem(Item item){
+//    items.add(item);
+//}
 public void addItem(Item item){
     items.add(item);
 }
 
+
+
 public void displayInventory(){
-    for (Item item: items){
-        System.out.println("Item: " + item.getName() + ", Quantity: " + item.getQuantity());
-    }
+   if (items.isEmpty()){
+       System.out.println("your inventory is empty bro");
+   } else if (items.size()!=0) {
+       for (Item item: items){
+           System.out.println("Item: " + item.getName() + ", Quantity: " + item.getQuantity());
+       }
+   }
+
 }
 
 }
