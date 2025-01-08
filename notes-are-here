@@ -19,3 +19,6 @@ aaaand ENCAPSULATION is Done.
 17 Create instance of fruit in Main class
 
 18 Weapon class again same but we add damage .. constructor
+
+19 figuring out @Override methods easy easy easy just modify it >>
+return " asdfasdf my own things " + type or getType() if im outside of class.. easy

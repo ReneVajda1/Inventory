@@ -25,14 +25,9 @@ public void addItem(Item item){
 
 
 public void displayInventory(){
-   if (items.isEmpty()){
-       System.out.println("your inventory is empty bro");
-   } else if (items.size()!=0) {
        for (Item item: items){
-           System.out.println("Item: " + item.getName() + ", Quantity: " + item.getQuantity());
+           System.out.println(item.toString());
        }
    }
-
 }
 
-}

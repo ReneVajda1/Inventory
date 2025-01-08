@@ -1,5 +1,5 @@
 public class Fruit extends Item{
-   String type;
+  private String type;
 
     public Fruit(String name, int quantity,String type) {
         super(name, quantity);
@@ -8,5 +8,10 @@ public class Fruit extends Item{
 
     public String getType() {
         return type;
+    }
+
+    @Override
+    public String toString() {
+        return "Fruit: " + getName() + getName() + ", Quantity: " + getQuantity() + ", Type: " + type;
     }
 }

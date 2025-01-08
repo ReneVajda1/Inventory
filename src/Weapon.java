@@ -1,8 +1,8 @@
 public class Weapon extends Item {
     private int damage;
-    private int type;
+    private String type;
 
-    public Weapon(String name, int quantity, int damage, int type) {
+    public Weapon(String name, int quantity, int damage, String type) {
         super(name, quantity);
         this.damage = damage;
         this.type = type;
@@ -12,7 +12,13 @@ public class Weapon extends Item {
         return damage;
     }
 
-    public int getType() {
+    public String getType() {
         return type;
+    }
+
+    @Override
+    public String toString() {
+        return "Name: " + getName() + ", Quantity:" +getQuantity() + ", Damage: " + damage + ", type=" + type
+                ;
     }
 }
