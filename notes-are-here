@@ -6,4 +6,7 @@ aaaand ENCAPSULATION is Done.
 3 generate getters
 4 generate constructor .. for Item
 
-5
+5 INVENTORY class created
+6 ArrayList<Item> items; array list stores objects
+7 Modify constructor
+8 create addItem() and displayInventory() functions
