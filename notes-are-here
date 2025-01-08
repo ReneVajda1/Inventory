@@ -13,3 +13,5 @@ aaaand ENCAPSULATION is Done.
 9 create item and inventory add then display them in main ..
 
 14 Inheritance  by making Fruit class
+15 Fruit class extends Item ... we add String type; and generate constructor with all 3 type name and quantity
+16 Create getType getter cause its missing in original ITEM class
